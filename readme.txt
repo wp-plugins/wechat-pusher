@@ -1,7 +1,8 @@
 === 微信推送助手 ===
 Contributors: PeiQi
-Tags: weixin,微信
-Tested up to: 1.0.2
+Tags: wechat,weixin,微信
+Requires at least: 3.0.1
+Tested up to: 4.1.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -19,7 +20,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 3. 详细设置及问题解答请至http://pq.orgwis.com/?p=50页面
 
 
-== Updates Notices ==
+== Upgrade Notices ==
 
 = 1.0.2 =
 * 修复了少许bug
+
+= 1.0.1 =
+* 修复了一处致命错误
