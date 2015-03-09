@@ -42,7 +42,9 @@ function Push_article(){
 			$str = get_post($id)->post_content;
 			
 			$str = str_replace("\n", "<br><p>", $str);
-
+			$str = str_replace("<br><p><ol>", "<ol>", $str);
+			$str = str_replace("<br><p></ol>", "</ol>", $str);
+			$str = str_replace("<br><p></blockquote>", "</blockquote>", $str);
 			$str = addslashes($str);
 			
 			include_once( dirname( dirname( WP_PLUGIN_DIR ) ) . '/wp-includes/pluggable.php' );

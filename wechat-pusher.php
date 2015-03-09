@@ -3,7 +3,7 @@
 Plugin Name: 微信推送助手
 Plugin URL: http://pq.orgwis.com/?p=50
 Description: 一个帮助您推送博文到微信公众号的小插件
-Version: 1.0.2
+Version: 1.0.3
 Author: PeiQi
 Author URL: http://pq.orgwis.com
 */
